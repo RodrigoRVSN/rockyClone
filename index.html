@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/styles/sobre.css">
     <link rel="stylesheet" href="/styles/contato.css">
     <link rel="stylesheet" href="/styles/root.css">
+    <link rel="stylesheet" href="/styles/responsividade.css">
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -28,12 +29,20 @@
 
 <body>
 
+    <!-- "pogressbar" -->
+    <div id="scrollPath"></div>
+    <div id="progressBar"></div>
+
     <!-- Navbar -->
 
-    <header class="containerNav">
+    <header class="containerNav" id="nav">
         <a href="#"><img src=img/web/logo.png alt="logo Rocky"></a>
-        <nav>
-            <ul>
+        <nav id="navbar">
+            <button id="btn-hamburguer" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                Menu<span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
                 <li><a href="#sobre">SOBRE A ROCKY</a></li>
                 <li><a href="#servicos">SERVIÇOS</a></li>
                 <li><a href="#diferenciais">DIFERENCIAIS</a></li>
@@ -157,14 +166,20 @@
             <section class="logo">
                 <!-- alt sendo um texto para o leitor de busca -->
                 <a href="#"><img src=img/web/logo.png alt="logo Rocky"></a>
-                <i class="fab fa-facebook fa-2x"></i>
-                <i class="fab fa-linkedin fa-2x"></i>
+                <!-- jabá básico -->
+                <a target="_blank" href="https://www.instagram.com/agencia.rocky/"><i
+                        class="fab fa-instagram fa-2x"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/rodrigovictorrvsn/"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
                 <div class="direct">
-                    <p><i class="fas fa-phone"></i>(15) 99715-4489</p>
-                    <p><i class="fas fa-envelope-square"></i>rodrigovictor81@gmail.com</p>
+                    <a target="_blank" href="tel:15-99715-4489"><i class="fas fa-phone"></i>(15) 99715-4489</a>
+                    <a target="_blank" href="mailto: rodrigovictor81@gmail.com"><i
+                            class="fas fa-envelope-square"></i>rodrigovictor81@gmail.com</a>
                 </div>
-                <p><i class="fas fa-map-marker-alt"></i>R. Romeu do Nascimento, 247 - Jardim Portal da Colina,
-                    Sorocaba - SP, 18047-410 , 2º andar</p>
+                <a target="_blank"
+                    href="https://www.google.com/maps/dir//rocky+marketing/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94c58b55265ac2e9:0x5f3f18905e39d772?sa=X&ved=2ahUKEwid_-LIrcnwAhX4IrkGHWPLDqYQ9RcwE3oECDcQBQ"><i
+                        class="fas fa-map-marker-alt"></i>R. Romeu do Nascimento, 247 - Jardim Portal da Colina,
+                    Sorocaba - SP, 18047-410 , 2º andar</a>
             </section>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, modi libero quae assumenda quam qui
                 ad. Voluptatum, necessitatibus, sapiente vel accusantium omnis quibusdam odit asperiores optio
@@ -215,7 +230,9 @@
 
     <!-- Importação dos icones e script -->
     <script src="https://kit.fontawesome.com/93707a51f5.js" crossorigin="anonymous"></script>
-    <script src="/script.js"></script>
+    <script src="/script/hamburguer.js"></script>
+    <script src="/script/navbar.js"></script>
+    <script src="/script/scroll.js"></script>
 </body>
 
 </html>

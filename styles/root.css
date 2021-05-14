@@ -1,6 +1,64 @@
+/* raiz do projeto */
+
 :root {
     --cyan: #1cd4e9;
     --white: #FFFFFF;
     --yellow: #efe60b;
     --black: rgb(26, 24, 24);
+}
+
+button:hover{
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    background-color: var(--black);
+    color: var(--yellow);
+    border: 0.3rem solid var(--yellow);
+}
+
+/* icones links */
+
+i{
+    cursor: pointer;
+}
+
+/* classe no script.js que controla opacidade da navbar */
+
+.menuFixo{
+    background-color: black;
+}
+
+/* Scrollbar como progressbar */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+#scrollPath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+}
+
+#progressBar{
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to bottom,var(--yellow), var(--cyan));
+    animation: animate 5s linear infinite;
+}
+
+/* Animação */
+
+@keyframes animate{
+    0%, 100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(180deg);
+    }
 }
