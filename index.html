@@ -5,78 +5,216 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descrição do site para o leitor de busca. -->
+    <meta name="description" content="Identificou que o digital é onde sua empresa pode crescer,
+        mas ainda não sabe qual parceiro escolher? A Rocky é o lugar certo para a sua equipe.">
+
     <link rel="shortcut icon" href="/img/web/favicon.png" />
+
+    <!-- Importação do css -->
     <link rel="stylesheet" href="/styles/inicio.css">
     <link rel="stylesheet" href="/styles/sobre.css">
     <link rel="stylesheet" href="/styles/contato.css">
     <link rel="stylesheet" href="/styles/root.css">
+
+    <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+
     <title>Rocky - Marketing Digital Com Performance</title>
 </head>
 
 <body>
-    <header>
-        <div class="containerNav">
-            <a href="#"><img src=img/web/logo.png></a>
-            <nav>
-                <ul>
-                    <li><a href="#">SOBRE A ROCKY</a></li>
-                    <li><a href="#sobre">SERVIÇOS</a></li>
-                    <li><a href="#">DIFERENCIAIS</a></li>
-                    <li><a href="https://rocky.gupy.io/">TRABALHE CONOSCO</a></li>
-                    <li><a href="#" class="destaque">CONTATO</a></li>
-                    <li><a href="https://blog.rocky.ag/pagina/1" target="_blank">BLOG</a></li>
-                </ul>
-            </nav>
-        </div>
+
+    <!-- Navbar -->
+
+    <header class="containerNav">
+        <a href="#"><img src=img/web/logo.png alt="logo Rocky"></a>
+        <nav>
+            <ul>
+                <li><a href="#sobre">SOBRE A ROCKY</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#diferenciais">DIFERENCIAIS</a></li>
+                <li><a href="https://rocky.gupy.io/" target="_blank">TRABALHE CONOSCO</a></li>
+                <li><a href="#contato" class="destaque">CONTATO</a></li>
+                <li><a href="https://blog.rocky.ag/pagina/1" target="_blank">BLOG</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- Parte inicial -->
 
     <section class="ctaInicio">
         <div class="inicio">
             <div class="hero">
-                <h2 class="title"><b>FULL DIGITAL PERFORMANCE</b></h2>
+                <h1 class="titleHero"><b>FULL DIGITAL PERFORMANCE</b></h1>
                 <div class="description">
                     <p>Identificou que o digital é onde <span>sua empresa pode crescer,</span></p>
                     <p>mas ainda não sabe <span>qual parceiro escolher?</span></p>
                 </div>
             </div>
-            <button>ENTRE EM CONTATO</button>
+            <a href=#contato><button>ENTRE EM CONTATO</button></a>
         </div>
     </section>
 
+    <!-- Background geral para sobre, diferenciais e serviços -->
+
     <main class="bg">
-        <section>
-            <div id="sobre">
-                <h2>SOBRE A ROCKY</h2>
-                <div class="container">
-                    <p>Fundada por ex-funcionários do Google e especializada em Marketing Digital.</p>
-                    <div class="objective">
-                        <strong>Nosso objetivo é gerar resultados através de campanhas de performance nomeio online e construir relacionamentos duradouros com nossos clientes.</strong>
-                    </div>
-                    <p>Marketing Digital deve ser feito com base em dados. Por isso, nossa equipe é composta por engenheiros e matemáticos, com perfil analítico e conhecimentos estatísticos para tomarem as melhores decisões para nossos clientes.
-                    Somos especialistas em diversas plataformas para executar estratégias inteligentes independentemente do segmento, público ou objetivo que se deseja alcançar.</p>
+
+        <!-- Parte do sobre -->
+
+        <section id="sobre">
+            <h2>SOBRE A ROCKY</h2>
+            <div class="container">
+                <p>Fundada por ex-funcionários do Google e especializada em Marketing Digital.</p>
+                <div class="objective">
+                    <strong>Nosso objetivo é gerar resultados através de campanhas de performance nomeio online e
+                        construir relacionamentos duradouros com nossos clientes.</strong>
+                </div>
+                <p>Marketing Digital deve ser feito com base em dados. Por isso, nossa equipe é composta por
+                    engenheiros e matemáticos, com perfil analítico e conhecimentos estatísticos para tomarem as
+                    melhores decisões para nossos clientes.
+                    Somos especialistas em diversas plataformas para executar estratégias inteligentes
+                    independentemente do segmento, público ou objetivo que se deseja alcançar.</p>
+            </div>
+        </section>
+
+        <!-- Parte dos serviços -->
+
+        <h2 class="title">SERVIÇOS</h2>
+        <section id="servicos">
+            <div class="card bg1">
+                <p>01</p>
+                <h2>Planejamento estratégico</h2>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur, nemo architecto
+                        eos aspernatur repellat veritatis quam. Similique quidem, eos dolore commodi facere impedit!
+                        Voluptatem, temporibus? Voluptatum temporibus sequi aliquid!</p>
                 </div>
             </div>
-
+            <div class="card bg2">
+                <p>02</p>
+                <h2>Planejamento estratégico</h2>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur, nemo architecto
+                        eos aspernatur repellat veritatis quam. Similique quidem, eos dolore commodi facere impedit!
+                        Voluptatem, temporibus? Voluptatum temporibus sequi aliquid!</p>
+                </div>
+            </div>
+            <div class="card bg3">
+                <p>03</p>
+                <h2>Planejamento estratégico</h2>
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur, nemo architecto
+                        eos aspernatur repellat veritatis quam. Similique quidem, eos dolore commodi facere impedit!
+                        Voluptatem, temporibus? Voluptatum temporibus sequi aliquid!</p>
+                </div>
+            </div>
+            </div>
         </section>
 
-        <section class="servicos">
+        <!-- Parte dos diferenciais -->
 
-        </section>
-        <section class="diferencias">
-
+        <h2 class="titleDif">DIFERENCIAIS</h2>
+        <section id="diferenciais">
+            <div class="cardDif bg11">
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur, nemo
+                        architecto
+                        eos aspernatur repellat veritatis quam. Similique quidem, eos dolore commodi facere
+                        impedit!
+                        Voluptatem, temporibus? Voluptatum temporibus sequi aliquid!</p>
+                </div>
+            </div>
+            <div class="cardDif bg22">
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur, nemo
+                        architecto
+                        eos aspernatur repellat veritatis quam. Similique quidem, eos dolore commodi facere
+                        impedit!
+                        Voluptatem, temporibus? Voluptatum temporibus sequi aliquid!</p>
+                </div>
+            </div>
+            <div class="cardDif bg33">
+                <div class="description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur, nemo
+                        architecto
+                        eos aspernatur repellat veritatis quam. Similique quidem, eos dolore commodi facere
+                        impedit!
+                        Voluptatem, temporibus? Voluptatum temporibus sequi aliquid!</p>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
-    <section class="contato">
 
+    <!-- Parte dos entre em contato -->
+
+    <section id="contato">
+        <aside class="redes">
+            <section class="logo">
+                <!-- alt sendo um texto para o leitor de busca -->
+                <a href="#"><img src=img/web/logo.png alt="logo Rocky"></a>
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-linkedin fa-2x"></i>
+                <div class="direct">
+                    <p><i class="fas fa-phone"></i>(15) 99715-4489</p>
+                    <p><i class="fas fa-envelope-square"></i>rodrigovictor81@gmail.com</p>
+                </div>
+                <p><i class="fas fa-map-marker-alt"></i>R. Romeu do Nascimento, 247 - Jardim Portal da Colina,
+                    Sorocaba - SP, 18047-410 , 2º andar</p>
+            </section>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, modi libero quae assumenda quam qui
+                ad. Voluptatum, necessitatibus, sapiente vel accusantium omnis quibusdam odit asperiores optio
+                tempore exercitationem cum aspernatur.</p>
+            <p><strong> ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vero debitis hic, a laudantium
+                    amet
+                    saepe repudiandae non velit quam suscipit labore similique dolore laboriosam totam, nobis, magni
+                    odio quas.</strong></p>
+            <p><strong> ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vero debitis hic, a laudantium
+                    amet
+                    saepe repudiandae non velit quam suscipit labore similique dolore laboriosam totam, nobis, magni
+                    odio quas.</strong></p>
+        </aside>
+        <section class="form">
+            <form>
+                <input type="name" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+
+                <select name="serviceQual" id="serviceQual" class="formSelect">
+                    <option disable selected value="0"> Investimento mensal </option>
+                    <option value="1"> De R$ 40.000,00 a R$ 100.000,00 </option>
+                    <option value="2"> De R$ 100.001,00 a R$ 200.000,00 </option>
+                    <option value="3"> Acima de R$ 200.001,00 </option>
+                </select>
+                <input type="text" placeholder="Mensagem" class="mensagem" required>
+                <button type="submit" class="formSubmit">ENVIAR MENSAGEM</button>
+            </form>
+        </section>
     </section>
+
+    <!-- Parte do trabalhe conosco -->
+
     <section class="trabalheConosco">
-
+        <div class="cowork">
+            <h2>QUER TRABALHAR CONOSCO?</h2>
+            <div class="ctaCowork">
+                <p>Mande seu currículo!</p>
+                <a href="https://rocky.gupy.io/" target="_blank"><button>ENVIAR CURRICULO</button></a>
+            </div>
+        </div>
     </section>
+
+    <!-- Parte do footer -->
+
     <footer>
-        <p>© 2021 <strong>Agência ROCKY</strong> – Marketing Digital. CNPJ 30.905.094/0001-09</p>
+        <h4>© 2021 <strong>Agência ROCKY</strong> – Marketing Digital. CNPJ 30.905.094/0001-09</h4>
     </footer>
+
+    <!-- Importação dos icones e script -->
+    <script src="https://kit.fontawesome.com/93707a51f5.js" crossorigin="anonymous"></script>
     <script src="/script.js"></script>
 </body>
 

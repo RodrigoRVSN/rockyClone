@@ -1,18 +1,22 @@
+/* ------------------------- BACKGROUND GERAL ----------------------------*/
+
 main{
     height: 100%;
+    padding: 10vh 10vw;
     background-image: url('/img/web/bg.png');
     background-position: center;
     background-size: cover;
     border-bottom: 3rem solid var(--yellow);
 }
 
+/* ------------------------- SOBRE ----------------------------*/
+
 #sobre{
-    padding: 10vh 10vw;
     font-weight: 600;
     font-size: 1.8rem;
 }
 
-h2{
+main h2{
     margin-bottom: 8vh;
 }
 
@@ -35,4 +39,110 @@ h2{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/* ------------------------- SERVIÇOS ----------------------------*/
+
+#servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title{
+    margin-top: 8rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card h2{
+    font-size: 1.7rem;
+    color: var(--yellow);
+}
+
+.card{
+    font-weight: 800;
+    line-height: 2;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    color: var(--white);
+    padding: 3rem;
+    height: 100%;
+    max-width: calc(50% - 0.75rem);
+}
+
+.bg1{
+    background-color: rgba(0,0,0,0.15);
+    background-blend-mode: color;
+    background-image:  url('/img/web/s3ft1.png');
+    background-position: center;
+    background-size: cover;
+}
+.bg2{
+    background-color: rgba(0,0,0,0.15);
+    background-blend-mode: color;
+    background-image:  url('/img/web/s3ft2.png');
+    background-position: center;
+    background-size: cover;
+}
+.bg3{
+    
+    background-color: rgba(0,0,0,0.65);
+    background-blend-mode: color;
+    background-image: url('/img/web/s3ft3.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* ------------------------- DIFERENCIAIS ----------------------------*/
+
+.titleDif{
+    margin-top: 8rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardDif{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 2;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    color: var(--white);
+    padding: 3rem;
+    height: 100%;
+    max-width: calc(30% - 0.75rem);
+}
+
+.bg11{
+    background-color: rgba(0,0,0,0.85);
+    background-blend-mode: color;
+    background-image:  url('/img/web/s4ft1.png');
+    background-position: center;
+    background-size: cover;
+}
+.bg22{
+    background-color: rgba(0,0,0,0.85);
+    background-blend-mode: color;
+    background-image:  url('/img/web/s4ft2.png');
+    background-position: center;
+    background-size: cover;
+}
+.bg33{
+    
+    background-color: rgba(0,0,0,0.85);
+    background-blend-mode: color;
+    background-image: url('/img/web/s4ft3.png');
+    background-position: center;
+    background-size: cover;
 }
