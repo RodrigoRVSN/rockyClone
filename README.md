@@ -1,10 +1,11 @@
-# Clone do Site da Rocky
+# Clone do Site da Rocky com foco em SEO e responsividade
 
 #### Oficial: https://rocky.ag/
 #### O meu: https://rocky-clone.vercel.app/
 
 _________________________________________________________________________________________________________________________________________________________
-🛠 Technologies (Tecnologias)
+
+# 🛠 Technologies (Tecnologias)
 - HTML5
 - CSS3
 - JAVASCRIPT
@@ -19,6 +20,7 @@ ________________________________________________________________________________
 - Menu-hambúrguer
 - Responsividade mais fácil
 - Acessibilidade
+- Navbar que altera com o scroll do mouse
 
 ___________________________________________________________________________________________________________________________________________________________________
 
